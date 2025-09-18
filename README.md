@@ -1,2 +1,2 @@
 # todo-list
-ToDo List on Vanilla JS
+To Do List using Bootstrap and Vanilla JS
