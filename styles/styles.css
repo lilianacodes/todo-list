@@ -1,0 +1,103 @@
+body {
+    background:#FAFAFA;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    user-select: none;  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;  
+}
+
+h1 {
+    font-weight: 600;
+}
+
+/* Input field */
+.custom-input {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #fff;
+    background-color: #000; 
+    color: #f0f0f0;
+    transition: border 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.custom-input:focus {
+    color: #0d8bc5; /* typed text color */
+    border: 1px solid #0d8bc5;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+    background-color: #111;
+}
+
+.custom-input::placeholder {
+    color: #f0f0f0;           
+    opacity: 0.5;
+}
+
+.custom-input:focus::placeholder {
+    color: #0d8bc5;  /* placeholder color while focused */
+    opacity: 0.5;
+}
+
+/* Submit button */
+.custom-submit {
+    background-color: #0d8bc5;
+    border: 1px solid #0d8bc5 !important;
+}
+
+.custom-submit:hover {
+    background-color: #111;
+}
+
+.custom-submit:active {
+    background-color: #000 !important;
+}
+
+.custom-item {
+    background-color: #0d8bc5;
+    cursor: pointer;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 0.5rem;
+    border-color: #000;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.custom-item:hover {
+    opacity: 0.7;
+}
+
+.custom-btn {
+    border: none;
+}
+
+.custom-btn i {
+    color: #000;
+    transition: color 0.3s;
+}
+
+.custom-btn:hover i {
+    color: #fff;
+}
+
+.custom-item.checked {
+  text-decoration: none;              
+  opacity: 0.7;                       
+  background-color: #707070;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-item.checked .task-text {
+  color: #fff;
+}
+
+.custom-item.checked i {
+  color: #fff;
+}
+
+.completed { 
+    text-decoration: line-through; 
+    opacity: 0.7; 
+}
