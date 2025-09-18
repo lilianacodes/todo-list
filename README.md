@@ -4,10 +4,10 @@ A simple, responsive **To Do List** application built with **Bootstrap 5** and *
 
 ## Features
 
-- Add, delete, and mark tasks as completed  
+- Add, delete, and mark tasks as completed using Vanilla JavaScript 
 - Responsive layout using Bootstrap grid and components  
 - Custom styles via `styles/styles.css`  
-- Clear and interactive user interface  
+- Clear and interactive user interface
 
 ## Installation
 
