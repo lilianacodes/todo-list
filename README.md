@@ -30,6 +30,5 @@ A simple, responsive **To Do List** application built with **Bootstrap 5** and *
 
 ## Live Demo
 
-Check out the live version of the To Do List [here](lilianacodes.github.io/todo-list/).
-
+Check out the live version of the To Do List [here](https://lilianacodes.github.io/todo-list/).
 
